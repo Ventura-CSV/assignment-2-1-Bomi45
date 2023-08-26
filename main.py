@@ -12,11 +12,11 @@ def main():
    
     males = int(input("Enter number of males: "))
     females = int(input("Enter number of females: "))
-    
     total_students = males + females
 
-    m_perc = males * total_students / 100
-    f_perc = females * total_students / 100
+    m_perc = males / total_students * 100
+    f_perc = females / total_students * 100
+    
     
     print("The total number of students: " + str(total_students))
     print(f"The number of males and females: \t {(males)} \t {(females)}")
